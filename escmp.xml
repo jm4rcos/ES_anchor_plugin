@@ -1,0 +1,17 @@
+<es-plugin
+    name="anchor"
+    layoutUsage="Job, Document, PageOrder, MetaData"
+    smartViewUsage="Job, Document, PageOrder, MetaData"
+    properties="
+        MetaData/:crop_special/anchor/top_left,
+        MetaData/:crop_special/anchor/top_center,
+        MetaData/:crop_special/anchor/top_right,
+        MetaData/:crop_special/anchor/center_left,
+        MetaData/:crop_special/anchor/center_center,
+        MetaData/:crop_special/anchor/center_right,
+        MetaData/:crop_special/anchor/bottom_left,
+        MetaData/:crop_special/anchor/bottom_center,
+        MetaData/:crop_special/anchor/bottom_right
+    ">
+    <css src="css/style.css"/>
+</es-plugin>
